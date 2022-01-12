@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+}
+
+.target_A {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 50px;
+    margin: 200px auto;
+    padding: 125px;
+    box-sizing: border-box;
+    box-shadow: black 30px 30px 1px 1px;
+    background-color: #fda901;
+    border: 1px solid grey;
+}
+.target_B {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 50px;
+    margin: 200px auto;
+    padding: 125px;
+    box-sizing: border-box;
+    box-shadow: black 30px 30px 15px 1px;
+    background-color: #fda901;
+    border: 1px solid grey;
+}
+.target_C {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 50px;
+    margin: 200px auto;
+    padding: 125px;
+    box-sizing: border-box;
+    box-shadow: black 30px 30px 15px 10px;
+    background-color: #fda901;
+    border: 1px solid grey;
+}
+.target_D {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 50px;
+    margin: 200px auto;
+    padding: 125px;
+    box-sizing: border-box;
+    box-shadow: grey 30px 30px 15px 10px;
+    background-color: #fda901;
+    border: 1px solid grey;
+}
+.target_E {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 50px;
+    margin: 200px auto;
+    padding: 125px;
+    box-sizing: border-box;
+    box-shadow: black 30px 30px 15px 1px;
+    background-color: #fda901;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.target_F {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 50px;
+    margin: 200px auto;
+    padding: 125px;
+    box-sizing: border-box;
+    box-shadow: grey 30px 30px 15px 1px;
+    background-color: #fda901;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.les {
+    background-color: #882727;
+    color: #f2e9d6;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.one {
+    background-color: #bebebf;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.two {
+    background-color: #6294eb;
+    box-sizing: border-box;
+    padding: 30px 0 30px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.three {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: #6ab967;
+}
+
+.four {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: #8785ab;
+    border-radius: 20px;
+}
