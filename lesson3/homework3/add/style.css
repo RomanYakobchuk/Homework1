@@ -43,3 +43,107 @@
     background: silver;
     width: 30%;
 }
+
+.container2 {
+    margin-top: 20px;
+    width: 600px;
+    color: white;
+    font-size: 20px;
+}
+
+.block_header {
+    background-color: #0e66a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.block_Nav {
+    background-color: #144c79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.block_main {
+    background-color: #18a3c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.block_aside {
+    background-color: #5376ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.block_footer {
+    background-color: #7ecce3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.block2 {
+    display: flex;
+    height: 70px;
+}
+
+
+
+.container_web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    height: 600px;
+    background-color: #93b4f1;
+    margin-top: 30px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.block_web {
+    display: flex;
+    background-color: white;
+    width: 600px;
+    height: 150px;
+    border-radius: 10px;
+}
+.info {
+    margin-right: 20px;
+}
+
+.info > h3 {
+    text-align: justify;
+    color: #fda901;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon > i {
+    width: 100px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
