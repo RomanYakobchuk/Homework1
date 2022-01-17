@@ -1,0 +1,44 @@
+.container {
+    width: 500px;
+    height: 350px;
+    background: #f2f2f2;
+    padding: 10px;
+}
+
+.block {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.A {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    background: silver;
+    margin: 5px;
+}
+
+.B_C {
+    display: flex;
+    justify-content: space-between;
+    height: 66%;
+    margin: 5px;
+}
+
+.B {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    width: 69%;
+}
+
+.C {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    width: 30%;
+}
