@@ -1,3 +1,7 @@
+.body > h2 {
+    font-size: 40px;
+}
+
 .container {
     width: 500px;
     height: 350px;
@@ -82,4 +86,273 @@
     justify-content: space-between;
     height: 50%;
     margin-bottom: 5px;
+}
+
+
+.container_gray {
+    margin-top: 30px;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 10px;
+    border: 2px solid #252526;
+    padding: 10px;
+}
+
+.gray {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.home {
+    width: 49%;
+}
+.home > img {
+    width: 100%;
+    height: 100%;
+}
+
+.Kabobs > img {
+    width: 100%;
+}
+
+.gray_2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    height: 200px;
+}
+.image {
+    height: 100%;
+    width: 32%;
+    background: #fda901;
+}
+.image > img {
+    width: 100%;
+    height: 100%;
+}
+.container_3 {
+    font-size: 25px;
+    margin-top: 100px;
+    width: 550px;
+    color: white;
+    border: 1px solid black;
+    padding: 10px
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: black;
+}
+
+.information {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.column_1 {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.column_2 {
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+
+.hero {
+    height: 45%;
+}
+
+.hero > img {
+    height: 100%;
+    width: 100%;
+}
+.sidebar {
+    height: 54%;
+}
+
+.sidebar > img {
+    height: 100%;
+    width: 100%;
+}
+.main {
+    height: 69%;
+}
+
+.main > img {
+    height: 100%;
+    width: 100%;
+}
+
+.extra {
+    height: 30%;
+}
+
+.extra > img {
+    height: 100%;
+    width: 100%;
+}
+
+.related {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    text-align: center;
+}
+
+.related_images {
+    width: 69%;
+}
+
+.related_images > img {
+    width: 100%;
+    height: 100%;
+}
+
+.related_posts {
+    width: 30%;
+}
+
+.related_posts > img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: black;
+}
+
+.services {
+    margin-top: 30px;
+    width: 70%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.services > h2 {
+    text-align: center;
+
+}
+
+.icon > i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #12beb5;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.services_1-4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    column-gap: 20px;
+}
+
+.service {
+    border: 1px solid #2cfdf1;
+    width: 20%;
+}
+
+.service > h3 {
+    text-align: center;
+
+}
+
+.text_service {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+.more {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #12beb5;
+}
+
+.more > a {
+    color: white;
+    text-decoration: none;
+}
+
+.container_3box {
+    margin-top: 50px;
+    border: 3px solid black;
+    padding: 40px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    column-gap: 25px;
+}
+.cont {
+    width: 20%;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #afafb2;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    background: white;
+}
+.circle > i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fda901;
+    font-size: 30px;
+}
+
+.box {
+    border: 2px solid #afafb2;
+}
+.box > h3 {
+    text-align: center;
+    padding-top: 30px;
+}
+.box_txt {
+    text-align: center;
+    padding: 15px;
+}
+
+.but {
+    text-align: center;
+    margin: 30px;
+    padding: 15px;
+    border: 1px solid black;
 }
