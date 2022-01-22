@@ -1,0 +1,370 @@
+.container_header {
+    width: 100%;
+    height: auto;
+    background: #d5d5d5;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header_block-1 {
+    height: 250px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 400px;
+}
+.card_item_head {
+    width: 350px;
+    height: 250px;
+    padding: 0 15px;
+    border-radius: 49%;
+
+}
+
+
+.card_inner_head {
+    height: 100%;
+    position: relative;
+    background-color: #1b4f45;
+    border-radius: 49%;
+
+}
+
+.card_inner_head:hover .card_img_head {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.card_inner_head:hover .card_img_head img {
+    opacity: .5;
+}
+
+
+.card_img_head {
+    border-radius: 49%;
+
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #1f1111, #faf9f5);
+    transition: transform .2s linear;
+}
+
+
+.card_img_head img {
+    border-radius: 49%;
+
+    width: 100%;
+    height: 100%;
+    display: block;
+    max-width: 100%;
+    transition: opacity .1s linear;
+}
+.card_item_photo {
+    width: 350px;
+    height: 430px;
+    padding: 0 15px;
+}
+
+.navigation {
+    margin-bottom: 150px;
+}
+
+.navigation > a {
+    padding: 6px 10px;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    border-radius: 10px;
+}
+
+.navigation > a:hover {
+    background: linear-gradient(to right, #3b2424, #cbc9c3);
+    color: white;
+    transition: 300ms;
+}
+
+.header_block-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    margin-bottom: 40px;
+}
+
+.hb2_centre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hb2_centre > h2 {
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.hb2_centre > h2:hover {
+    background: black;
+    color: white;
+    transition: 300ms;
+}
+
+
+.photo > img {
+    width: 100%;
+    height: 100%;
+}
+
+.header_block-2 > h2 {
+    margin: 10px;
+}
+
+.search {
+    margin-top: 30px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search > input {
+    height: 50px;
+    width: 600px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+
+.block_search {
+    position: relative;
+    right: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    background: #a2a2a2;
+    border-radius: 40px;
+}
+
+.block_search:hover {
+    background: linear-gradient(to left, #1f1111, #faf9f5);
+    transition: 300ms;
+    color: white;
+
+}
+
+
+.container_2 {
+    margin: 50px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_2 > h1 {
+    background: silver;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.container_2 > h1:hover {
+    background: black;
+    color: white;
+    transition: 300ms;
+
+}
+.container_2 > h2:hover {
+    background: black;
+    color: white;
+    transition: 300ms;
+
+}
+
+.container_2 > h2 {
+    background: silver;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+.cont3_block-1 {
+    margin: 40px -5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card_item {
+    width: 31%;
+    padding: 0 10px;
+    height: 278px;
+}
+
+.card_inner {
+    height: 100%;
+    position: relative;
+    background-color: #1b4f45;
+}
+
+.card_inner:hover .card_img {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.card_inner:hover .card_img img {
+    opacity: .1;
+}
+
+.card_inner:hover .card_text {
+    opacity: 1;
+}
+
+.card_img {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #1f1111, #faf9f5);
+    transition: transform .2s linear;
+}
+
+
+.card_img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    max-width: 100%;
+    transition: opacity .1s linear;
+}
+
+.card_text {
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0, -50%, 0);
+
+    transition: opacity .2s linear;
+}
+
+
+.container_4 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.cont4_block-1 {
+    margin-left: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.cont4_image {
+    width: 400px;
+    height: 250px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont4_info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+.info4-txt > h2 {
+    margin: 10px;
+}
+.info4-txt > h3 {
+    margin: 10px;
+}
+.info4-txt > h4 {
+    margin: 10px;
+}
+
+
+
+.container_5 {
+    background: silver;
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont5_info > h3 {
+    width: 120px;
+
+    background: #9b9b9b;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.cont5_info > h3:hover {
+    background: black;
+    color: white;
+    transition: 300ms;
+
+}
+.cont5_info > h2:hover {
+    background: black;
+    color: white;
+    transition: 300ms;
+
+}
+
+.cont5_info > h2 {
+    width: 185px;
+    background: #a8a7a7;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.cont5_info-icon {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+.cont5_info-icon > a > i {
+    padding: 5px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    color:black;
+    text-decoration: none;
+}
+.cont5_info-icon > a > i:hover {
+    color: #012bfd;
+    border: 1px solid black;
+
+}
+.cont5_info-icon > a > img {
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    color:black;
+    text-decoration: none;
+}
+.cont5_info-icon > a > img:hover {
+    color: #012bfd;
+    border: 1px solid black;
+
+}
