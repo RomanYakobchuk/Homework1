@@ -1,0 +1,13 @@
+@media screen and (max-width: 1440px) {
+    .cont1_right {
+        height: 800px;
+    }
+
+    .cont1_left {
+        margin-left: 100px;
+    }
+
+    .image > img {
+        height: 500px;
+    }
+}
