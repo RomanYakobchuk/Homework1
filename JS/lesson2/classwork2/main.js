@@ -70,7 +70,7 @@ else if (typeof x === 'boolean' ){
 let tOkten = +prompt('Чи ми йдемо сььогодні в OKTEN на навчяання? Введіть температуру:');
 if (tOkten >= 10 && tOkten <= 22){
     console.log('Ураааа! Ми йдемо ВЧИТИСЯ!');
-} else if (tOkten < 10 && tOkten > 22) {
+} else if (tOkten < 10 || tOkten > 22) {
     console.log('Сидимо вдома і навчаємося ОНЛАЙН!');
 } else {
     console.log('О ні! Дані введено не коректно!');
@@ -86,19 +86,19 @@ if (tOkten >= 10 && tOkten <= 22){
 let games = +prompt('ВІКТОРИНА!!! Введіть число від 1 до 5:');
 switch (games){
     case 1:
-        console.log('Вітаю!!! Ваш приз автомобіль!);
+        console.log('Вітаю!!! Ваш приз автомобіль!');
         break;
     case 2:
-        console.log('Вітаю!!! Ваш приз мотоцикл!);
+        console.log('Вітаю!!! Ваш приз мотоцикл!');
         break;
     case 3:
-        console.log('Вітаю!!! Ваш приз катер!);
+        console.log('Вітаю!!! Ваш приз катер!');
         break;
     case 4:
-        console.log('Вітаю!!! Ваш приз квартира!);
+        console.log('Вітаю!!! Ваш приз квартира!');
         break;
     case 5:
-        console.log('Вітаю!!! Ваш приз смартвон!);
+        console.log('Вітаю!!! Ваш приз смартфон!');
         break;
     default:
         console.log('Число не вірне!!!');
