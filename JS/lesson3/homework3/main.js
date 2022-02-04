@@ -30,19 +30,19 @@ console.log(array);
 //- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 //- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 for(let i = 0; i < 10; i++){
-    document.write(`<div>text</div>`);
+    document.write(`<div>text - ${i+1}</div>`);
 }
 for(let i = 0; i < 10; i++){
-    document.write(`<div>txt lorem ipsun in - ${i}</div>`);
+    document.write(`<div>txt lorem ipsun in - ${i+1}</div>`);
 }
 let i = 0;
 while (i < 20){
-    document.write(`<h1>snflvnsovnkjvn erevrtv bryberybe</h1>`)
+    document.write(`<h1>snflvnsovnkjvn erevrtv bryberybe - ${i+1}</h1>`)
     i++;
 }
 let y = 0;
 while (y < 20){
-    document.write(`<h1>${y} - snflvnsovnkjvn erevrtv bryberybe</h1>`)
+    document.write(`<h1>${y+1} - snflvnsovnkjvn erevrtv bryberybe</h1>`)
     y++;
 }
 

@@ -60,18 +60,18 @@ for(let r = arr.length; r >= 0; r--){
 
 // 9. всі попередні завдання (окрім 8), але у зворотному циклі (с заду на перед)
 
-let i2 = arr.length;
+let i2 = arr.length-1;
 while(i2 >= 0) {
     console.log('цикл while -',arr[i2]);
     i2--;
 }
 
 
-for(let n = arr.length; n >= 0; n--){
+for(let n = arr.length-1; n >= 0; n--){
     console.log('цикл for -', arr[n]);
 }
 
-let u2 = arr.length;
+let u2 = arr.length-1;
 while (u2 >= 0){
     if([u2] % 2 === 1){
         console.log('цикл while з непарним індексом-', ` ${u2}`, arr[u2]);
@@ -79,13 +79,13 @@ while (u2 >= 0){
     u2--;
 }
 
-for(let y = arr.length; y >= 0; y--){
+for(let y = arr.length-1; y >= 0; y--){
     if([y] % 2 === 1){
         console.log('цикл for з непарним індексом-', ` ${y}`, arr[y]);
     }
 }
 
-let g2 = arr.length;
+let g2 = arr.length-1;
 while (g2 >= 0){
     if([g2] % 2 === 0){
         console.log('цикл while з парним індексом-', ` ${g2}`, arr[g2]);
@@ -93,14 +93,14 @@ while (g2 >= 0){
     g2--;
 }
 
-for(let q2 = arr.length; q2 >= 0; q2--){
+for(let q2 = arr.length-1; q2 >= 0; q2--){
     if([q2] % 2 === 0){
         console.log('цикл for з парним індексом-', ` ${q2}`, arr[q2]);
     }
 }
 
 
-for(let w = arr.length; w >= 0; w--){
+for(let w = arr.length-1; w >= 0; w--){
     if(arr[w] % 3 === 0){
         arr[w] = 'okten';
         console.log('число кратне 3 -', ` ${w}`, arr[w]);
