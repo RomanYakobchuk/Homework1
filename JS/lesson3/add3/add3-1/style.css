@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrap {
+    justify-content: space-evenly;
+    align-items: center;
+    display: grid;
+    grid-template-rows: repeat(20, 250px);
+    grid-template-columns: repeat(5, 230px);
+    grid-gap: 20px;
+}
+
+.post-card {
+    background: #fd6d1e;
+    width: 250px;
+    height: 230px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
