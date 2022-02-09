@@ -78,11 +78,42 @@ function average(masAver) {
 document.write(`<div>Середнє арифметичне елементів масиву: ${average(masAver)}</div>`);
 
 //- створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
-
+function numMinMax(arg) {
+    let numberMin = arguments[0];
+    let numberMax = arguments[0];
+    for (let element of arguments) {
+        if (element > numberMax){
+            numberMax = element;
+        }
+        else if (element < numberMin){
+            numberMin = element;
+        }
+    }
+    console.log('Max:',numberMax);
+    return numberMin;
+}
+document.write('Min:', numMinMax(342, 645645, 8677, 3535, -8));
 
 //- створити функцію яка заповнює масив рандомними числами
+function funRandom (length) {
+    let arrayrand = [];
+    for (let i = 0; i < length; i++){
+        arrayrand.push(Math.floor(Math.random()*100));
+    }
+return arrayrand;
+}
+document.write(`<div>Рандомний массив: ${funRandom(7)}</div>`);
 //(цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
+
+
 //- створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
+function funRandomMas (length, limit) {
+    let arrayEmpty = [];
+    for (let i = 0; i < length; i++){
+        arrayEmpty.push(Math.floor(Math.random()* limit));
+    }
+    return arrayEmpty;
+}
+document.write(`<div>Рандомний массив з лімітом: ${funRandomMas(13, 200)}</div>`);
+
 //- Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
-
-
