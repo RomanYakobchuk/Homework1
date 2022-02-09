@@ -117,3 +117,14 @@ function funRandomMas (length, limit) {
 document.write(`<div>Рандомний массив з лімітом: ${funRandomMas(13, 200)}</div>`);
 
 //- Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
+let arr =[1, 2, 3];
+function reverse(arr) {
+     let newArr = [];
+     for (let i = arr.length - 1, ri = 0; i >= 0; i--, ri++) {
+         newArr[ri] = arr[i];
+     }
+     return newArr;
+ }
+ document.write(`<div>Реверсивний массив: ${reverse(arr)}</div>`);
+
+
