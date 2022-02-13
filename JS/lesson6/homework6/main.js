@@ -67,4 +67,4 @@ document.write(`<div>${indexUp('hello world!')}</div>`);
 let txtUp = (txt) => {
     return txt.split(' ').map(word=>word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 }
-document.write(`<div>${txtUp('hello world Kiev')}</div>`);
+document.write(`<div>${txtUp('hello world and Kiev')}</div>`);
