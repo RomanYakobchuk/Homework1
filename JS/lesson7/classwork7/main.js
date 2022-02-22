@@ -120,7 +120,7 @@ const arrPopelyushka = [
 
 //Створити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 class Princ {
-    constructor(name, age, shoeFound) {
+    constructor( name, age, shoeFound) {
         this.name = name;
         this.age = age;
         this.shoeFound = shoeFound;
