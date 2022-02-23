@@ -270,11 +270,11 @@ for (let usersListElement of usersList) {
             divGeo.style.border = '1px solid black';
             divGeo.style.margin = '10px';
             divGeo.style.padding = '3px 7px';
-            let lat = document.createElement('div');
-            lat.innerText = usersListElement.address.geo.lat;
-            let lng = document.createElement('div');
-            lng.innerText = usersListElement.address.geo.lng;
-            divGeo.append(lat, lng);
+            for (let usersListElementKey in usersListElement.address.geo) {
+                let temp1 = document.createElement('div');
+                temp1.innerHTML = usersListElement.address.geo[usersListElementKey];
+                divGeo.append(temp1);
+            }
 
         divAddress.append(divStreet, divSuite, divCity, divZip, divGeo);
 
@@ -283,17 +283,12 @@ for (let usersListElement of usersList) {
     let divWeb = document.createElement('div');
     divWeb.innerHTML = `<a href="${usersListElement.website}">${usersListElement.website}</a>`;
 
-        let divCompany = document.createElement('div');
-        divCompany.style.border = '1px solid black';
-        divCompany.style.margin = '10px';
-        divCompany.style.padding = '3px 7px';
-        let compName = document.createElement('div');
-        compName.innerText = usersListElement.company.name;
-        let compCatchPhrasee = document.createElement('div');
-        compCatchPhrasee.innerText = usersListElement.company.catchPhrase;
-        let compBs = document.createElement('div');
-        compBs.innerText = usersListElement.company.bs;
-        divCompany.append(compName, compCatchPhrasee, compBs);
+    let divCompany = document.createElement('div');
+    for (let divCompanyElement in usersListElement.company) {
+        let temp = document.createElement('div');
+        temp.innerHTML = usersListElement.company[divCompanyElement];
+        divCompany.append(temp);
+    }
 
     divBlock.append(divId, divName, divUsername, divEmail, divAddress, divPhone, divWeb, divCompany);
     blocks.append(divBlock);
