@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 10px;
+    transition: 300ms;
+}
+ a:hover {
+     background: black;
+     color: white;
+ }
+ #users {
+     margin-bottom: 10px;
+ }
