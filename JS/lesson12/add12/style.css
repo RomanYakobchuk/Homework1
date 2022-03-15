@@ -1,0 +1,162 @@
+body {
+    background: rgba(232, 202, 73, 0.7);
+}
+h5,
+h4 {
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.divUser {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 300ms;
+    padding: 10px;
+    align-items: center;
+    min-height: 730px;
+}
+.divUser:hover {
+    background: #fcf3f3;
+}
+
+.userInfo {
+    height: 700px;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.userInfo:hover {
+    background: #cac6c6;
+    border: 1px solid black;
+    box-shadow: 0 14px 28px rgb(57, 57, 59), 0 10px 10px rgba(245, 231, 231, 0.22);
+}
+
+.divAddress,
+.divGeo,
+.divCompany,
+.contacts{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid transparent;
+    transition: 300ms;
+    border-radius: 10px;
+}
+.divAddress {
+    height: 196px;
+}
+.divCompany {
+    height: 180px;
+}
+.contacts {
+    height: 257px;
+}
+.contacts:hover,
+.divAddress:hover {
+    background: #a9a8c0;
+    border: 1px solid black;
+    box-shadow: 0 14px 28px rgb(57, 57, 59), 0 10px 10px rgb(190, 190, 191);
+}
+.divGeo:hover,
+.divCompany:hover{
+    background: #5d59bb;
+    color: #fdcb42;
+    border: 1px solid black;
+    box-shadow: 0 14px 28px rgb(72, 72, 171), 0 10px 10px rgb(231, 159, 17);
+
+}
+.wraper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 240px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 300ms;
+}
+
+.card:hover {
+    background: #fcf3f3;
+}
+
+.card h3 {
+    margin: 0;
+}
+
+.card h4 {
+    height: 50px;
+}
+
+.card h5 {
+    height: 90px;
+}
+
+
+.cardCom {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms;
+}
+
+.cardCom:hover {
+    background: #cac6c6;
+}
+
+.cardCom h3,
+.cardCom h4 {
+    margin: 5px;
+}
+
+.cardCom h5 {
+    margin: 0;
+    height: 40px;
+}
+
+.cardCom h6 {
+    margin: 0;
+}
+
+
+.button,
+.button1 {
+    margin: 5px;
+    transition: 300ms;
+}
+.button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
