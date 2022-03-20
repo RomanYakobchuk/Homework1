@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    border-bottom: 3px solid black;
+}
+.users {
+    display: flex;
+    flex-wrap: wrap;
+}
+.user {
+    margin: 20px calc(25% - 151px) 0 calc(25% - 151px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user > a {
+    text-decoration: none;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    color: black;
+    transition: 300ms;
+}
+
+.user > a:hover {
+    color: white;
+    background: black;
+}
+
+/*posts*/
+.user-details {
+    margin: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.postsContainer {
+    background: #dcd6b5;
+}
+
+
+.postsDetailsButton {
+    margin: 0 auto;
+    display: block;
+    width: 98%;
+    height: 30px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.postsDetailsButtonClose {
+    margin: 0 auto;
+    display: block;
+    width: 98%;
+    height: 30px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.postsDetailsButton:hover {
+    background: black;
+    color: white;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 300ms;
+    margin: 15px;
+    height: 150px;
+    width: 200px;
+    margin-left: calc(10% - 101px);
+    margin-right: calc(10% - 101px);
+}
+.post:hover {
+    background: black;
+    color: white;
+    box-shadow: 0 14px 28px rgb(57, 57, 59), 0 10px 10px rgba(245, 231, 231, 0.22);
+}
+
+.post > h4 {
+    margin: 20px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postDetailsButtonCom {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    height: 30px;
+    transition: 300ms;
+    margin: 10px 0;
+}
+.postDetailsButtonCom:hover {
+    background: #fdcb42;
+}
+
+.divUser {
+    min-width: 45%;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 300ms;
+    padding: 5px;
+    /*align-items: center;*/
+    min-height: 630px;
+    display: flex;
+    justify-content: center;
+}
+.divUser:hover {
+    background: #fcf3f3;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 300ms;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.userInfo > h5, h4 {
+    font-size: 14px;
+}
+
+.userInfo:hover {
+    color: white;
+    background: black;
+    box-shadow: 0 14px 28px rgb(57, 57, 59), 0 10px 10px rgba(245, 231, 231, 0.22);
+}
+
+.divAddress,
+.divGeo,
+.divCompany,
+.contacts{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid transparent;
+    transition: 300ms;
+    border-radius: 10px;
+}
+.divAddress {
+    padding: 0;
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.divAddress > ul {
+    padding-left: 10%;
+}
+
+.divCompany {
+    height: 100px;
+}
+.contacts {
+    height: 160px;
+}
+.contacts:hover,
+.divAddress:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 0 14px 28px rgb(57, 57, 59), 0 10px 10px rgb(190, 190, 191);
+}
+.divGeo:hover,
+.divCompany:hover{
+    background: black;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 0 14px 28px rgb(72, 72, 171), 0 10px 10px rgb(231, 159, 17);
+
+}
+
+h5,
+h4 {
+    margin: 0;
+}
+
+
+
+.comments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.comments > div {
+    width: 18%;
+    background: #fda901;
+    border-radius: 10px;
+    margin: 10px;
+}
